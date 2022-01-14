@@ -114,5 +114,28 @@
         printf("\n");
     }
 
+### 5. Write a C program to check whether a number is even or odd
+
+	// Write a C program to check whether a number is even or odd
+	
+	#include <stdio.h>
+
+	int main()
+	{
+		int num;
+		printf("Enter a number: ");
+		scanf("%d", &num);
+		printf("%d is an ", num);
+		if (num%2==0)
+		{
+			printf("even");
+		}
+		else
+		{
+			printf("odd");
+		}
+		printf(" number\n");
+	}
+
 
 	
