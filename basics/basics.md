@@ -392,6 +392,8 @@ Method 2
 	}
 ### 13. Write a C program to count total number of notes in given amount (Indian currency notes)
 
+#### *CODE (WORKS BUT) NEEDS IMPROVEMENT, I MIGHT DO IT AT A LATER POINT OF TIME*
+
 	#include <stdio.h>
 
 	int main()
