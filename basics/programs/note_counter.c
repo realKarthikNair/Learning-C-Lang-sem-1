@@ -2,7 +2,6 @@
 
 int main()
 {
-	printf("Name: Karthik Nair, Class: BCA1EA\n");
 	int n;
 	printf("Enter amount: ");
 	scanf ("%d",&n);
