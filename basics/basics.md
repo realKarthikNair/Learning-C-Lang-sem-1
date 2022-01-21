@@ -312,8 +312,6 @@ Method 2
 
 	// Write a C program to input week day number and print week day name
 
-	// This question can easily be done using arrays, but for these questions I was not allowed to use them.
-
 	#include <stdio.h>
 
 	int main()
