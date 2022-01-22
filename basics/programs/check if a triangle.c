@@ -3,7 +3,6 @@
 
 int main()
 {
-	printf("Name: Karthik Nair, Class: BCA1EA\n");
 	int angle1, angle2, angle3;
 	printf("Enter angle 1: ");
 	scanf("%d", &angle1);
