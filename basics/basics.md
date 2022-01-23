@@ -483,7 +483,7 @@ Method 2
 
 ### 15. Write a C program to input all sides of a triangle and check whether triangle is valid or not
 
-// Write a C program to input all sides of a triangle and check whether triangle is valid or not
+	// Write a C program to input all sides of a triangle and check whether triangle is valid or not
 
 	#include <stdio.h>
 
@@ -506,3 +506,45 @@ Method 2
 		}
 		printf("\n");
 	}
+
+### 16. Write a C program to check whether the triangle is equilateral, isosceles or scalene triangle
+
+	// Write a C program to check whether the triangle is equilateral, isosceles or scalene triangle
+
+	#include <stdio.h>
+
+	int main()
+	{
+		int side1, side2, side3;
+		printf("Enter side 1: ");
+		scanf("%d", &side1);
+		printf("Enter side 2: ");
+		scanf("%d", &side2);
+		printf("Enter side 3: ");
+		scanf("%d", &side3);
+		if (((side1+side2)>side3)&&((side2+side3)>side1)&&((side1+side3)>side2))
+		{
+			if ((side1!=side2)||(side1!=side3)||(side2!=side3))
+			{
+				if ((side1==side2)||(side1==side3)||(side2==side3))
+				{
+					printf("Triangle is isosceles!");
+				}
+				else
+				{
+					printf("Triangle is scalene!");
+				}
+			}
+			else
+			{
+				printf("Triangle is equilateral!");
+			}    
+		}
+		else
+		{
+			printf("Input sides doesn't make a triangle!");
+		}
+		printf("\n");
+	}
+
+### 17. Write a C program to find the types roots of a quadratic equation
