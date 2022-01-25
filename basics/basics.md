@@ -669,9 +669,9 @@ Method 2
 	}
 
 ### 20. Write a C program to input basic salary of an employee and calculate its Gross salary according to following: 
-### Basic Salary <= 10000 : HRA = 20%, DA = 80% 
-### Basic Salary <= 20000 : HRA = 25%, DA = 90% 
-### Basic Salary > 20000 : HRA = 30%, DA = 95% 
+ Basic Salary <= 10000 : HRA = 20%, DA = 80% <br>
+ Basic Salary <= 20000 : HRA = 25%, DA = 90% <br>
+ Basic Salary > 20000 : HRA = 30%, DA = 95% <br>
 
 	/*Write a C program to input basic salary of an employee and calculate its Gross salary according to following: 
 	Basic Salary <= 10000 : HRA = 20%, DA = 80% 
@@ -702,3 +702,12 @@ Method 2
 		}
 		printf("Gross Salary is %f\n", basic+HRA+DA);
 	}
+
+### Write a C program to input electricity unit charges and calculate total electricity bill according to the given conditions:                
+ For first 50 units Rs. 0.50/unit <br>
+ For next 100 units Rs. 0.75/unit <br>
+ For next 100 units Rs. 1.20/unit <br>
+ For unit above 250 Rs. 1.50/unit <br>
+ An additional surcharge of 20% is added to the bill <br>
+
+ 
