@@ -834,7 +834,7 @@ Method 2
 		printf("\n");
 	}
 
-### 26. Display first 50 odd nos. Using while loop 
+### 27. Display first 50 odd nos. Using while loop 
 
 	// Display first 50 odd nos. Using while loop 
 
@@ -851,3 +851,39 @@ Method 2
 		printf("\n");
 	}
 
+### 28. Display sum of first 50 even nos. Using while loop 
+
+	// Display sum of first 50 even nos. Using while loop 
+
+	#include <stdio.h>
+
+	void main()
+	{
+		int a=2, n=100, sum=0;
+		while (a<=n)
+		{ 
+			sum+=a;
+			a+=2;
+		}
+		printf("%d\n", sum);
+	}
+
+### 29. Display sum of first 50 odd nos. Using while loop 
+
+	// Display sum of first 50 odd nos. Using while loop 
+
+	#include <stdio.h>
+
+	void main()
+	{
+		printf("Name: Karthik Nair, Class: BCA1EA\n");
+		int a=1, n=99, sum=0;
+		while (a<=n)
+		{ 
+			sum+=a;
+			a+=2;
+		}
+		printf("%d\n", sum);
+	}
+
+### 30. 
