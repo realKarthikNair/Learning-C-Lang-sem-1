@@ -4,7 +4,7 @@
 
     #include <stdio.h>
 
-    int main()
+    void main()
     {
       int a,b;
       printf("Enter the first number: ");
@@ -33,7 +33,7 @@
 
     #include <stdio.h>
 
-    int main()
+    void main()
     {
         int a,b,c;
         printf("Enter the first number: ");
@@ -72,7 +72,7 @@
 
     #include <stdio.h>
 
-    int main()
+    void main()
     {
         int num;
         printf("Enter a number: ");
@@ -98,7 +98,7 @@
 
     #include <stdio.h>
 
-    int main()
+    void main()
     {
         int num;
         printf("Enter a number: ");
@@ -120,7 +120,7 @@
 	
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int num;
 		printf("Enter a number: ");
@@ -146,7 +146,7 @@ Method 1
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int year;
 		printf("Enter an year: ");
@@ -169,7 +169,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int year;
 		printf("Enter an year: ");
@@ -204,7 +204,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		char a;
 		printf("Enter a character: ");
@@ -227,7 +227,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		char a;
 		printf("Enter a character: ");
@@ -255,7 +255,7 @@ Method 2
 	
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 	    char a;
 	    printf("Enter a character: ");
@@ -282,7 +282,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		char a;
 		printf("Enter a character: ");
@@ -314,7 +314,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int week_day_num;
 		printf("Enter week day number: ");
@@ -360,7 +360,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int num, days;
 		printf("Enter month number: ");
@@ -394,7 +394,7 @@ Method 2
 	
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int n;
 		printf("Enter amount: ");
@@ -461,7 +461,7 @@ Method 2
 	// Write a C program to input angles of a triangle and check whether triangle is valid or not
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int angle1, angle2, angle3;
 		printf("Enter angle 1: ");
@@ -487,7 +487,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int side1, side2, side3;
 		printf("Enter side 1: ");
@@ -513,7 +513,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int side1, side2, side3;
 		printf("Enter side 1: ");
@@ -553,7 +553,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		int a, b, c, d;
 		printf("Enter value of a: ");
@@ -584,7 +584,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{    
 		int cp, sp;
 		printf("Enter cost price: ");
@@ -624,7 +624,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		float mark1, mark2, mark3, mark4, mark5, percentage;
 		printf("Marks are out of 100 \n");
@@ -680,7 +680,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		float HRA, DA, basic;
 		printf("Enter Basic Salary: ");
@@ -719,7 +719,7 @@ Method 2
 
 	#include <stdio.h>
 
-	int main()
+	void main()
 	{
 		float units, cost;
 		printf("Enter the number of units: ");
