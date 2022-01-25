@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     int a=2, n=100, sum=0;
     while (a<=n)

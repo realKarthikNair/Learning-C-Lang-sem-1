@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {    
     int cp, sp;
     printf("Enter cost price: ");

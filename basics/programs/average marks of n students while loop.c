@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     int n, marks, count=1; float sum=0;
     printf("Enter number of students: ");

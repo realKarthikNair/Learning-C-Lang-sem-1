@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     int  count=0, a=7;
     while (count<=50)

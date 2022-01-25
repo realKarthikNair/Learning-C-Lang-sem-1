@@ -7,7 +7,7 @@
 
  #include <stdio.h>
 
- void main()
+ int main()
  {
      float units, cost;
      printf("Enter the number of units: ");

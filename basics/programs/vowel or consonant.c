@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	char a;
 	printf("Enter a character: ");

@@ -5,7 +5,7 @@
 
  #include <stdio.h>
 
- void main()
+ int main()
  {
      float HRA, DA, basic;
      printf("Enter Basic Salary: ");

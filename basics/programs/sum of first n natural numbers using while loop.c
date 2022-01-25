@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     int a=1, n, sum=0;
     printf("Enter value of n: ");

@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     printf("Name: Karthik Nair, Class: BCA1EA\n");
     int i;

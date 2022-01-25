@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int week_day_num;
 	printf("Enter week day number: ");

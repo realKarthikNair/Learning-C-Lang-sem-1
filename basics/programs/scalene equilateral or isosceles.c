@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     int side1, side2, side3;
     printf("Enter side 1: ");

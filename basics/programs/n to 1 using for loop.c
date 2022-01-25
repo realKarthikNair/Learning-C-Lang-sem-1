@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     int i=1,n;
     printf("Enter value of n: ");

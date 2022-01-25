@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int num, days;
 	printf("Enter month number: ");
