@@ -955,3 +955,20 @@ Method 2
 			printf("%d,", i);   
 		printf("\n");
 	}
+
+### 34. Display counting from 100 to 1 using for loop
+
+	// Display counting from 100 to 1 using for loop
+
+	#include <stdio.h>
+
+	void main()
+	{
+		int i;
+		for (i = 100; i >= 1; i--)
+			printf("%d,", i);   
+		printf("\n");
+	}
+
+### 35. Display counting from 1 to n using for loop
+
