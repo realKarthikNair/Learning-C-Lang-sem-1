@@ -817,3 +817,37 @@ Method 2
 		printf("\n");
 	}
 
+### 26. Display first 50 even nos. Using while loop 
+
+	// Display first 50 even nos. Using while loop
+
+	#include <stdio.h>
+
+	void main()
+	{
+		int a=2, n=100;
+		while (a<=n)
+		{ 
+			printf("%d,", a);
+			a+=2;
+		}
+		printf("\n");
+	}
+
+### 26. Display first 50 odd nos. Using while loop 
+
+	// Display first 50 odd nos. Using while loop 
+
+	#include <stdio.h>
+
+	void main()
+	{
+		int a=1, n=99;
+		while (a<=n)
+		{ 
+			printf("%d,", a);
+			a+=2;
+		}
+		printf("\n");
+	}
+
