@@ -778,3 +778,6 @@ Method 2
 		}
 		printf("\n");
 	}
+
+### 24. Display counting from 1 to n using while loop
+
