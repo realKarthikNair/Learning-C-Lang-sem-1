@@ -761,3 +761,6 @@ Method 2
 		}
 		printf("\n");
 	}
+
+### 23. Display counting from 100 to 1 using while loop
+
