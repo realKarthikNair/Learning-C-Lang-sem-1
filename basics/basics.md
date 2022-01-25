@@ -972,3 +972,38 @@ Method 2
 
 ### 35. Display counting from 1 to n using for loop
 
+	// Display counting from 1 to n using for loop
+
+	#include <stdio.h>
+
+	void main()
+	{
+		int i=1,n;
+		printf("Enter value of n: ");
+		scanf("%d",&n);
+		for (i;i<=n;i++)
+		{
+			printf("%d,",i);
+		}
+		printf("\n");
+	}
+
+### 36. Display counting from n to 1 using for loop
+
+	// Display counting from n to 1 using for loop
+
+	#include <stdio.h>
+
+	void main()
+	{
+		int i=1,n;
+		printf("Enter value of n: ");
+		scanf("%d",&n);
+		for (n;n>=i;n--)
+		{
+			printf("%d,",n);
+		}
+		printf("\n");
+	}
+
+### 37. 
