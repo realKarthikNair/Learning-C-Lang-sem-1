@@ -1,10 +1,10 @@
-### 1. Write a C program to find maximum between two numbers
+﻿### 1. Write a C program to find maximum between two numbers
 
     // Write a C program to find maximum between two numbers.
 
     #include <stdio.h>
 
-    void main()
+    int main()
     {
       int a,b;
       printf("Enter the first number: ");
@@ -33,7 +33,7 @@
 
     #include <stdio.h>
 
-    void main()
+    int main()
     {
         int a,b,c;
         printf("Enter the first number: ");
@@ -72,7 +72,7 @@
 
     #include <stdio.h>
 
-    void main()
+    int main()
     {
         int num;
         printf("Enter a number: ");
@@ -98,7 +98,7 @@
 
     #include <stdio.h>
 
-    void main()
+    int main()
     {
         int num;
         printf("Enter a number: ");
@@ -120,7 +120,7 @@
 	
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int num;
 		printf("Enter a number: ");
@@ -146,7 +146,7 @@ Method 1
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int year;
 		printf("Enter an year: ");
@@ -169,7 +169,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int year;
 		printf("Enter an year: ");
@@ -204,7 +204,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		char a;
 		printf("Enter a character: ");
@@ -227,7 +227,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		char a;
 		printf("Enter a character: ");
@@ -255,7 +255,7 @@ Method 2
 	
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 	    char a;
 	    printf("Enter a character: ");
@@ -282,7 +282,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		char a;
 		printf("Enter a character: ");
@@ -314,7 +314,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int week_day_num;
 		printf("Enter week day number: ");
@@ -360,7 +360,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int num, days;
 		printf("Enter month number: ");
@@ -394,7 +394,7 @@ Method 2
 	
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int n;
 		printf("Enter amount: ");
@@ -461,7 +461,7 @@ Method 2
 	// Write a C program to input angles of a triangle and check whether triangle is valid or not
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int angle1, angle2, angle3;
 		printf("Enter angle 1: ");
@@ -487,7 +487,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int side1, side2, side3;
 		printf("Enter side 1: ");
@@ -513,7 +513,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int side1, side2, side3;
 		printf("Enter side 1: ");
@@ -553,7 +553,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int a, b, c, d;
 		printf("Enter value of a: ");
@@ -584,7 +584,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{    
 		int cp, sp;
 		printf("Enter cost price: ");
@@ -624,7 +624,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		float mark1, mark2, mark3, mark4, mark5, percentage;
 		printf("Marks are out of 100 \n");
@@ -680,7 +680,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		float HRA, DA, basic;
 		printf("Enter Basic Salary: ");
@@ -719,7 +719,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		float units, cost;
 		printf("Enter the number of units: ");
@@ -750,7 +750,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		printf("Name: Karthik Nair, Class: BCA1EA\n");
 		int start=1, end=100;
@@ -768,7 +768,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int start=100, end=1;
 		while (start>=end)
@@ -785,7 +785,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int a=1, n;
 		printf("Enter value of n: ");
@@ -804,7 +804,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int a=1, n;
 		printf("Enter value of n: ");
@@ -823,7 +823,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int a=2, n=100;
 		while (a<=n)
@@ -840,7 +840,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int a=1, n=99;
 		while (a<=n)
@@ -857,7 +857,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int a=2, n=100, sum=0;
 		while (a<=n)
@@ -874,7 +874,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		printf("Name: Karthik Nair, Class: BCA1EA\n");
 		int a=1, n=99, sum=0;
@@ -892,7 +892,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int  count=0, a=7;
 		while (count<=50)
@@ -909,7 +909,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int a=1, n, sum=0;
 		printf("Enter value of n: ");
@@ -928,7 +928,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int n, marks, count=1; float sum=0;
 		printf("Enter number of students: ");
@@ -948,7 +948,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int i;
 		for (i = 1; i <= 100; i++)
@@ -962,7 +962,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int i;
 		for (i = 100; i >= 1; i--)
@@ -976,7 +976,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int i=1,n;
 		printf("Enter value of n: ");
@@ -994,7 +994,7 @@ Method 2
 
 	#include <stdio.h>
 
-	void main()
+	int main()
 	{
 		int i=1,n;
 		printf("Enter value of n: ");
