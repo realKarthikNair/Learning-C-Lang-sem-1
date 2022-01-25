@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main()
+void main()
 {
     float mark1, mark2, mark3, mark4, mark5, percentage;
     printf("Marks are out of 100 \n");

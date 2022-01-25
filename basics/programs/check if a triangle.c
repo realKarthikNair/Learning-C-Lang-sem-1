@@ -1,7 +1,7 @@
 // Write a C program to input angles of a triangle and check whether triangle is valid or not
 #include <stdio.h>
 
-int main()
+void main()
 {
 	int angle1, angle2, angle3;
 	printf("Enter angle 1: ");

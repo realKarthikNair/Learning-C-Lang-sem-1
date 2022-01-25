@@ -703,7 +703,7 @@ Method 2
 		printf("Gross Salary is %f\n", basic+HRA+DA);
 	}
 
-### Write a C program to input electricity unit charges and calculate total electricity bill according to the given conditions:                
+### 21. Write a C program to input electricity unit charges and calculate total electricity bill according to the given conditions:                
  For first 50 units Rs. 0.50/unit <br>
  For next 100 units Rs. 0.75/unit <br>
  For next 100 units Rs. 1.20/unit <br>
@@ -743,4 +743,6 @@ Method 2
 		printf("Elecricity charge is Rs %f", (0.2*(units*cost))+(units*cost));
 		printf("\n");
 	}
+
+### 22. Display counting from 1 to 100 using while loop
 

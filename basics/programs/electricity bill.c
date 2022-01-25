@@ -7,7 +7,7 @@
 
  #include <stdio.h>
 
- int main()
+ void main()
  {
      float units, cost;
      printf("Enter the number of units: ");
@@ -31,3 +31,4 @@
      printf("Elecricity charge is Rs %f", (0.2*(units*cost))+(units*cost));
      printf("\n");
  }
+ 

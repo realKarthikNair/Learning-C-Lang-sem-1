@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main()
+void main()
 {
 	int a,b,c;
 	printf("Enter the first number: ");
