@@ -894,7 +894,7 @@ Method 2
 
 	int main()
 	{
-		int  count=0, a=7;
+		int  count=1, a=7;
 		while (count<=50)
 		{
 			printf("%d ",a);
@@ -1068,5 +1068,20 @@ Method 2
 			sum+=i;
 		}
 		printf("%d\n",sum);
+	}
+
+### 41. Display first 50 multiples of 7 using for loop
+
+	// Display first 50 multiples of 7 using for loop
+
+	#include <stdio.h>
+
+	int main()
+	{
+		int a=7;
+		for (a; a<=(7*50); a+=7)
+		{
+			printf("%d ", a);
+		}
 	}
 
