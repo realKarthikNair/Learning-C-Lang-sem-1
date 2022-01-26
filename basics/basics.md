@@ -1126,3 +1126,6 @@ Method 2
 
 ### 44. Display the following pattern on screen: (Up to n rows)
 
+`*`<br>
+`**`<br>
+`***`<br>
