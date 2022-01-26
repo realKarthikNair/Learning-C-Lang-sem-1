@@ -1153,7 +1153,7 @@ Method 2
 		}
 	}
 
-45. Display the following pattern on screen: ( Up to n rows)
+### 45. Display the following pattern on screen: ( Up to n rows)
 
 `1`<br>
 `1 2`<br>
@@ -1184,7 +1184,7 @@ Method 2
 		}
 	}
 
-46. Display the following pattern (Floyd’s Triangle) on screen: ( Up to n rows)
+### 46. Display the following pattern (Floyd’s Triangle) on screen: ( Up to n rows)
 `1`<br>
 `2 3`<br>
 `4 5 6`<br>
@@ -1215,4 +1215,74 @@ Method 2
 		}
 	}
 
+
+### 47. Display the following pattern on screen: ( Up to n rows)
+ 
+`*****`<br>
+`****`<br>
+`***`<br>
+`**`<br>
+`*`<br>
+
+	/*Display the following pattern on screen: ( Up to n rows)
+	
+	***** 
+	****
+	***
+	**
+	*
+
+	*/
+
+	#include <stdio.h>
+
+	int main()
+	{
+		int i, n, j;
+		printf("Enter value of n: ");
+		scanf("%d", &n);
+		for (n; i<=n; n--)
+		{
+			for (j=1; j<=n; j++)
+			{
+				printf("*");
+			}
+			printf("\n");
+		}
+	}
+
+48. Display the following pattern on screen: ( Up to n rows)
+
+`1 2 3 4 5`<br>
+`1 2 3 4`<br>
+`1 2 3`<br>
+`1 2`<br>
+`1`<br>
+
+	/*48. Display the following pattern on screen: ( Up to n rows)
+	
+	1 2 3 4 5
+	1 2 3 4 
+	1 2 3 
+	1 2 
+	1
+
+	*/
+
+	#include <stdio.h>
+
+	int main()
+	{
+		int i, n, j;
+		printf("Enter value of n: ");
+		scanf("%d", &n);
+		for (i=1; i<=n; n--)
+		{
+			for (j=1; j<=n; j++)
+			{
+				printf("%d", j);
+			}
+			printf("\n");
+		}
+	}
 
