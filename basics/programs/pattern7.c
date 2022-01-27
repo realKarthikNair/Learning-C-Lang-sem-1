@@ -6,13 +6,5 @@
      * * *
        *
 
-*/  
+*/
 
-// THIS CODE IS INCOMPLETE
-
-#include <stdio.h>
-
-int main()
-{
-    int i=1, 
-}
