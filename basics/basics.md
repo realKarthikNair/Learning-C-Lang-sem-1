@@ -1325,7 +1325,7 @@ D D D D
 
 	*/
 
-	// logic: first row of stars if (n*2)-1..... 
+	// logic: first row of stars is (n*2)-1..... 
 
 	#include <stdio.h>  
 	int main()  
