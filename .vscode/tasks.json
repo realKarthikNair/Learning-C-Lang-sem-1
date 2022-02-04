@@ -10,7 +10,7 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${workspaceFolder}/basics/Binaries (compiled on Linux)/${fileBasenameNoExtension}"
+				"${workspaceFolder}/Binaries (compiled on Linux)/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
