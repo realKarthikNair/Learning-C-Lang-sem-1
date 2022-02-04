@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import os
 
-md_file=open(f"programs.md","w"); sno=1
+md_file=open(f"readme.md","w"); sno=1
 for i in sorted(os.listdir("programs")):
     path=os.path.join("programs", i)
     file=open(path, 'r')
