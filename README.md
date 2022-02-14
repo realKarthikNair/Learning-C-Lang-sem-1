@@ -13,6 +13,6 @@ The contents of the repo that includes the notes and code files are solely subje
 ### Resources I'm using to learn C (will be updated with time)
 - My college lecturer, [Ms. Swati Jain](https://vsit.vips.edu/swati-jain/)
 - "Let Us C" by Yashavant Kanetkar
-- [Exercism](exercism.org)
+- [Exercism](https://exercism.org)
 - YouTube (no specific channels/playlists, i just search topics and choose kinda randomly)
 
