@@ -17,8 +17,12 @@ Consider A=10, B=20
 
 
 
-Relational Operators
-Logical Operators
-Bitwise Operators
-Assignment Operators
+Relational Operators 
+
+Logical Operators 
+
+Bitwise Operators 
+
+Assignment Operators 
+
 Misc Operators
