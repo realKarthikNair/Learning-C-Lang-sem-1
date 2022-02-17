@@ -16,7 +16,5 @@ The contents of the repo that includes the notes and code files are solely subje
 - My college lecturer, [Ms. Swati Jain](https://vsit.vips.edu/swati-jain/)
 - "Let Us C" by Yashavant Kanetkar
 - Stack Overflow
-- [Exercism](https://exercism.org)
-- [Javatpoint](https://www.javatpoint.com)
-- [Tutorials Point](https://www.tutorialspoint.com/cprogramming/)
+- [Exercism](https://exercism.org), [Geeks for Geeks](https://www.geeksforgeeks.org), [Javatpoint](https://www.javatpoint.com) and [Tutorials Point](https://www.tutorialspoint.com/cprogramming/)
 - YouTube (C Programming by Neso Academy + other channels depending on need)
