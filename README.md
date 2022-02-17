@@ -5,10 +5,8 @@ Cuz Paulo Coelho once said- “And, when you want to learn the C programming lan
 
 ### Why this repo?
 - To save my progress learning the C programming language
-- To improve my writing skills
 
 ### Why go public?
-- To help humanity and global hunger in general
 - To make the day seem brighter for beginners into the C programming language
 
 ### To anyone referring this repo
@@ -19,5 +17,6 @@ The contents of the repo that includes the notes and code files are solely subje
 - "Let Us C" by Yashavant Kanetkar
 - Stack Overflow
 - [Exercism](https://exercism.org)
+- [Javatpoint](https://www.javatpoint.com)
 - [Tutorials Point](https://www.tutorialspoint.com/cprogramming/)
 - YouTube (C Programming by Neso Academy + other channels depending on need)
