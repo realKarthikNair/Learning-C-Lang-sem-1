@@ -1,6 +1,6 @@
 # Preprocessor Directives
 
-- In computer programming, a directive or pragma is a language construct that specifies how a compiler should process its input.
+- A directive is a language construct that specifies how a compiler should process its input.
 - They facilitate in making the source programs easy to change and compile. e,g,. replacing tokens in text, inserting the contents of other files into source files, etc
 - Directives are subjective to different C compilers
 
@@ -65,4 +65,3 @@ Different types of macros:
     #define CIRCLE_AREA(x) PI*x*x
     ```
     4. Conditional Compilation
-    
