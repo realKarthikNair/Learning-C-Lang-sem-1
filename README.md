@@ -15,6 +15,6 @@ The contents of the repo that includes the notes and code files are solely subje
 ### Resources I'm using to learn C (will be updated with time)
 - My college lecturer, [Ms. Swati Jain](https://vsit.vips.edu/swati-jain/)
 - "Let Us C" by Yashavant Kanetkar
-- Stack Overflow
+- Stack Overflow, [Microsoft Docs](https://docs.microsoft.com/en-us/cpp/c-language)
 - [Exercism](https://exercism.org), [Geeks for Geeks](https://www.geeksforgeeks.org), [Javatpoint](https://www.javatpoint.com) and [Tutorials Point](https://www.tutorialspoint.com/cprogramming/)
 - YouTube (C Programming by Neso Academy + other channels depending on need)
