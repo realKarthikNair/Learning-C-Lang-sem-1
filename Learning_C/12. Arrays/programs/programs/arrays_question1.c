@@ -1,8 +1,7 @@
 #include <stdio.h>
-int marks[10];
 int main()
 {
-    int i;
+    int i, marks[10];
     for (i=0;i<10;i++)
     {
         printf("Input marks of roll num %d: ", i+1);
