@@ -27,41 +27,41 @@ Header files are written in angular brackets to tell the preprocessor to search 
 
 Different types of macros:
 
-    1. Symbolic constant
+(i) Symbolic constant
 
-    - Defines a constant value
-    
-    Syntax:
+- Defines a constant value
 
-    ```c
-    #define SYMBOLIC_CONSTANT_NAME VALUE
-    ```
-    
-    Example:
+Syntax:
 
-    ```c
-    #define PI 3.14
-    ```
-    - To make another symbolic constant, you need to write another #define statement
+```c
+#define SYMBOLIC_CONSTANT_NAME VALUE
+```
 
-    2. Argumented Macros
+Example:
 
-    - Also known as function-like 
-    - Helps to avoid context-switching caused by functions
-   
-    Example:
+```c
+#define PI 3.14
+```
+- To make another symbolic constant, you need to write another #define statement
 
-    ```c
-    #define SUM(a,b,c) a+b+c
-    ```
-    3. Nested macros
+(ii) Argumented Macros
 
-    - using a macro relative to the definition of a previous macro in sequence
+- Also known as function-like 
+- Helps to avoid context-switching caused by functions
 
-    Example:
+Example:
 
-    ```c
-    #define PI 3.14
-    #define CIRCLE_AREA(x) PI*x*x
-    ```
-    4. Conditional Compilation
+```c
+#define SUM(a,b,c) a+b+c
+```
+(iii) Nested macros
+
+- using a macro relative to the definition of a previous macro in sequence
+
+Example:
+
+```c
+#define PI 3.14
+#define CIRCLE_AREA(x) PI*x*x
+```
+(iv) Conditional Compilation 
