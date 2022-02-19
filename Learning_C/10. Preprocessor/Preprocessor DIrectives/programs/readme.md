@@ -1,4 +1,44 @@
-### 1. // Program to demonstrate the working of file inclusion 
+### 1. // Demonstrating conditional compilation
+```c
+
+#include <stdio.h>
+#define PI 5
+
+int main()
+{
+    #if (PI==3)
+        printf("Correct value!");
+    #else
+        #undef PI
+        #define PI 3
+        printf("Correct value assigned!");
+    #endif
+}
+
+// // Demonstrating conditional compilation
+
+// #include <stdio.h>
+// #define PI 3.14
+
+// int main()
+// {
+//     double pi=PI;
+//     printf("%f\n",pi);
+//     if (pi==3.14)
+//     {
+//         printf("Correct value!");
+//     }
+//     else
+//     {
+//         #undef PI
+//         #define PI 3.14
+//         printf("Correct value assigned!");
+//     }
+// }
+
+```
+
+### 2. // Program to demonstrate the working of file inclusion 
 ```c
 // hello.c already exists in same directory
 #include "hello.c"
@@ -9,7 +49,7 @@ void main()
 }
 ```
 
-### 2. // Demonstrating the working of argumented macros
+### 3. // Demonstrating the working of argumented macros
 ```c
 
 #include <stdio.h>
@@ -28,7 +68,7 @@ int main()
 }
 ```
 
-### 3.
+### 4.
 ```c
 
 void print_hello()
@@ -38,7 +78,7 @@ void print_hello()
 
 ```
 
-### 4. // Demonstrating the working of nested macros
+### 5. // Demonstrating the working of nested macros
 ```c
 
 #include <stdio.h>
@@ -54,7 +94,7 @@ int main()
 }
 ```
 
-### 5. // Write a program to calculate the area of a circle. Make a symbolic constant for PI.
+### 6. // Write a program to calculate the area of a circle. Make a symbolic constant for PI.
 ```c
 
 #include <stdio.h>

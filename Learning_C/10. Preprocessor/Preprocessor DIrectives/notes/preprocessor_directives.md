@@ -65,3 +65,24 @@ Example:
 #define CIRCLE_AREA(x) PI*x*x
 ```
 (iv) Conditional Compilation 
+
+- Allows us to skip compiling certain part of code based on conditions
+
+- `#if`, `ifdef`, `ifndef`, `else`, `endif`, `indef`
+- 
+
+```c
+#include <stdio.h>
+#define PI 5
+
+int main()
+{
+    #if (PI==3)
+        printf("Correct value!");
+    #else
+        #undef PI
+        #define PI 3
+        printf("Correct value assigned!");
+    #endif
+}
+```
