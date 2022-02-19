@@ -19,7 +19,7 @@ for i in sorted(os.listdir("programs")):
                 flag=True
                 sno+=1
             elif j==0:
-                md_file.write(f"### {sno}.\n")
+                md_file.write(f"### {sno}. {i}\n")
                 sno+=1
             elif flag==True:
                 if data[j][-3:-1]=="*/":
