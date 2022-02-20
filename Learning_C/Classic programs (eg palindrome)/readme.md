@@ -56,7 +56,39 @@ int main()
 
 ```
 
-### 2. // Write a C program to check whether a year is leap year or not
+### 2. // find the factorial of a number
+```c
+
+#include <stdio.h>
+
+int main()
+{
+	int i,num,fact=1;
+	printf("Enter a number: ");
+	scanf("%d", &num);
+	if (num>0)
+	{
+		for (i=num; i>0; i--)
+		{
+			fact=fact*i;
+		}
+	}
+	else if (num==0)
+	{
+		fact=1;
+	}
+	else
+	{
+		printf("Negative numbers cant be an input!");
+		return 0;
+	}
+	printf("Factorial of %d is %d\n", num, fact);
+}
+    
+
+```
+
+### 3. // Write a C program to check whether a year is leap year or not
 ```c
 
 #include <stdio.h>
@@ -82,7 +114,7 @@ int main()
 
 ```
 
-### 3. // Find if input is a palindrome number
+### 4. // Find if input is a palindrome number
 ```c
 
 #include <stdio.h>
@@ -118,7 +150,7 @@ void main()
 }
 ```
 
-### 4. // Find if entered number is a prime number
+### 5. // Find if entered number is a prime number
 ```c
 
 #include <stdio.h>
@@ -167,7 +199,7 @@ int main()
 
 ```
 
-### 5. // Print prime numbers between range input by user
+### 6. // Print prime numbers between range input by user
 ```c
 
 #include <stdio.h>
@@ -209,7 +241,7 @@ int main()
 
 ```
 
-### 6. // Write a C program to find the types roots of a quadratic equation
+### 7. // Write a C program to find the types roots of a quadratic equation
 ```c
 
 #include <stdio.h>
