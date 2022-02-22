@@ -4,14 +4,16 @@
 int main()
 {
     int m[3][3], i, j;
+    printf("Enter values for the 3*3 matrix\n\n");
     for(i=0; i < 3; i++)
     {
+        printf("Input row %d with each value separated with space\n", i);
         for(j=0; j<3; j++)
         {
-            printf("Input value of row %d column %d: ", i+1, j+1);
             scanf("%d", &m[i][j]);
         }
     }
+    printf("Entered Matrix is\n");
     for(i=0; i < 3; i++)
     {
         for(j=0; j<3; j++)
