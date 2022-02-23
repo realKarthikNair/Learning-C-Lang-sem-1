@@ -1,4 +1,5 @@
 > This repo is under construction, commute with caution - You have been warned!
+> You are free to make contributions provided they match the overall style of the repo
 
 # Learning-C-Lang
 Cuz Paulo Coelho once said- “And, when you want to learn the C programming language, all the universe conspires in helping you to achieve it.”
