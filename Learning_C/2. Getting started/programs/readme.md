@@ -1,5 +1,6 @@
 ### 1. // Hello World program
 ```c
+
 #include <stdio.h>
 
 int main(void)
@@ -11,6 +12,7 @@ int main(void)
 
 ### 2. // Add two numbers 'a' and 'b'. Numbers should be user inputs
 ```c
+
 #include <stdio.h>
 
 int main()

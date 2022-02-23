@@ -7,7 +7,7 @@ int main()
     printf("Enter values for the 3*3 matrix\n\n");
     for(i=0; i < 3; i++)
     {
-        printf("Input row %d with each value separated with space\n", i);
+        printf("Input row %d with each value separated with space\n", i+1);
         for(j=0; j<3; j++)
         {
             scanf("%d", &m[i][j]);
