@@ -1,4 +1,5 @@
-> This repo is under construction, commute with caution - You have been warned!
+> This repo is under construction, commute with caution - You have been warned! <br>
+> 
 > You are free to make contributions provided they match the overall style of the repo
 
 # Learning-C-Lang
