@@ -1,5 +1,20 @@
-### 1. // Write a C program to input month number and print number of days in that month
+### 1. // Convert celsius to fahrenheit by taking input from the user
 ```c
+
+#include <stdio.h>
+
+int main()
+{
+    int celsius;
+    printf("Enter temperature in degree celsius: ");
+    scanf("%d", &celsius);
+    printf("Temperature in fahrenheit is %f\n", (celsius*1.8)+(32));
+}
+```
+
+### 2. // Write a C program to input month number and print number of days in that month
+```c
+
 #include <stdio.h>
 
 int main()
@@ -34,8 +49,9 @@ int main()
 
 ```
 
-### 2. // Write a C program to check whether a number is divisible by 5 and 11 or not
+### 3. // Write a C program to check whether a number is divisible by 5 and 11 or not
 ```c
+
 #include <stdio.h>
 
 int main()
@@ -59,13 +75,14 @@ int main()
 
 ```
 
-### 3. /*Write a C program to input electricity unit charges and calculate total electricity bill according to the given conditions:                
+### 4. /*Write a C program to input electricity unit charges and calculate total electricity bill according to the given conditions:                
 ###  For first 50 units Rs. 0.50/unit 
 ###  For next 100 units Rs. 0.75/unit 
 ###  For next 100 units Rs. 1.20/unit 
 ###  For unit above 250 Rs. 1.50/unit 
 ###  An additional surcharge of 20% is added to the bill*/
 ```c
+
  #include <stdio.h>
 
  int main()
@@ -95,8 +112,9 @@ int main()
  
 ```
 
-### 4.
+### 5. even or odd.c
 ```c
+
 int main()
 {
 	int num;
@@ -118,8 +136,9 @@ int main()
 
 ```
 
-### 5. // Write a C program to check whether a number is negative, positive or zero
+### 6. // Write a C program to check whether a number is negative, positive or zero
 ```c
+
 #include <stdio.h>
 
 int main()
@@ -146,7 +165,7 @@ int main()
 
 ```
 
-### 6. /*Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following: 
+### 7. /*Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following: 
 ###  Percentage >= 90% : Grade A 
 ###  Percentage >= 80% : Grade B 
 ###  Percentage >= 70% : Grade C 
@@ -154,6 +173,7 @@ int main()
 ###  Percentage >= 50% : Grade E 
 ###  Percentage < 40% : Grade F */
 ```c
+
 #include <stdio.h>
 
 int main()
@@ -202,11 +222,12 @@ int main()
 
 ```
 
-### 7. /*Write a C program to input basic salary of an employee and calculate its Gross salary according to following: 
+### 8. /*Write a C program to input basic salary of an employee and calculate its Gross salary according to following: 
 ###  Basic Salary <= 10000 : HRA = 20%, DA = 80% 
 ###  Basic Salary <= 20000 : HRA = 25%, DA = 90% 
 ###  Basic Salary > 20000 : HRA = 30%, DA = 95% */
 ```c
+
  #include <stdio.h>
 
  int main()
@@ -234,8 +255,9 @@ int main()
 
 ```
 
-### 8. // Write a C program to find maximum between two numbers.
+### 9. // Write a C program to find maximum between two numbers.
 ```c
+
 #include <stdio.h>
 
 int main()
@@ -265,8 +287,9 @@ int main()
 
 ```
 
-### 9. // Write a C program to find maximum between three numbers
+### 10. // Write a C program to find maximum between three numbers
 ```c
+
 #include <stdio.h>
 
 int main()
@@ -302,8 +325,9 @@ int main()
 
 ```
 
-### 10.
+### 11. note_counter.c
 ```c
+
 int main()
 {
 	int n;
@@ -367,8 +391,9 @@ int main()
 
 ```
 
-### 11.
+### 12. profit or loss.c
 ```c
+
 int main()
 {    
     int cp, sp;
