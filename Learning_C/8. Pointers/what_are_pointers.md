@@ -3,6 +3,44 @@
 - Pointer is a variable which is capable of storing the memory address of another variable.
 - A memory address is an exact assigned location in RAM used to track where an information is stored. 
 
+### Declaration
+
+ `<data type* > <pointer name>`
+
+ e.g., 
+ 
+ ```c
+ int* ptr;
+ ```
+
+**Note**
+ *`int *ptr` and `int * ptr` also works!*<br>
+ *\* is known as Deferencing operator*
+
+### Initialization
+
+1. Intializing separately
+
+`<pointer name>=&some_variable`
+
+2. Declaring and Initializing together
+
+`<data type* > <pointer name>=&some_variable`
+
+e.g.,
+
+```c
+ptr=&a;  //intializing
+```
+
+```c
+int* ptr=&a; //declaring and initializing
+```
+
+**Note**
+
+*& is known as the address operarator*
+
 For example,
 
 ```c
