@@ -1,4 +1,4 @@
-### 1. // WAP to dynamically create an array of given user and display it in ascendiong order
+### 1. // WAP to dynamically create an array of size given by user and display it in ascendiong order
 ```c
 
 #include <stdio.h>
