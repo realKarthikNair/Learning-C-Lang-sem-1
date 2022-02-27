@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void sort(int *);
-
 int main()
 {
     // Declaration, memory allocation and checking for successful allocation
@@ -14,7 +12,7 @@ int main()
     int* array= calloc(len, sizeof(int));
     if (array == NULL)
     {
-        printf("Out of memory\n");
+        printf("Out of memory\n"); return 0;
     }
 
     // initializion of array
