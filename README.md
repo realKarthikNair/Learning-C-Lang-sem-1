@@ -19,7 +19,7 @@ Cuz Paulo Coelho once said- “And, when you want to learn the C programming lan
 
 ### Resources I'm using/referring to learn C (will be updated with time)
 - My college lecturer, [Ms. Swati Jain](https://vsit.vips.edu/swati-jain/)
-- "Let Us C" by Yashavant Kanetkar
+- "Programming in C" by Pearson and "Let Us C" by Yashavant Kanetkar
 - Stack Overflow, [Microsoft Docs](https://docs.microsoft.com/en-us/cpp/c-language)
 - [Exercism](https://exercism.org), [Geeks for Geeks](https://www.geeksforgeeks.org), [Javatpoint](https://www.javatpoint.com), [Study Tonight](https://www.studytonight.com/c/) and [Tutorials Point](https://www.tutorialspoint.com/cprogramming/)
 - YouTube (C Programming by Neso Academy + other channels depending on need)
