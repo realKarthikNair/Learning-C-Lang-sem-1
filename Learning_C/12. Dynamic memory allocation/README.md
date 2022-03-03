@@ -12,7 +12,7 @@
 
 # Methods of Dynamic Memory Allocation
 
-### - Malloc()
+### Malloc()
 
 - Allocates a memory block of given size (in bytes) and returns a pointer to the beginning of the block
 
@@ -24,5 +24,14 @@
   (cast-data-type *)calloc(num, size-in-bytes)
   ```
 
-### - Calloc()
+- For example:
+  
+  ```c
+  ptr = (int*) malloc(100 * sizeof(int));
+  ```
 
+### Calloc()
+
+- Allocates multiple blocks of memory and returns a pointer to its memory location
+
+- Memory allocation is contiguous
