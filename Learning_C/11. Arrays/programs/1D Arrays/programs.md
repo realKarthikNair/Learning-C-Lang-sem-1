@@ -19,102 +19,121 @@ int main()
 
 ```
 
-### 2. /* 
-### - 2D Array
-### - Write a program to input the marks of 5 subjects each of n students and then display the sum of the marks of each student.
-### */
+### 2. // Sort an array ascending and descending
 ```c
 
 #include <stdio.h>
+
 int main()
 {
-    // defining the 2D array to store marks of 6 students
-    // 6 rows and 5 columns indicate 6 students with 5 subjects each
-    int marks[6][5];
-    // Defining the variables needed to iterate through the array
-    int i,j;
-    // Defining a variable to store the sum of the marks of each student
-    int sum = 0;
-
-    // storing values into the array using a for loop
-    for (i=0; i<6; i++)
+    int array[]={3,4,43,23,32,33,21,39,98};
+    int i, j, temp;
+    // Sorting the array ascending
+    for (i=0; i<9; i++)
     {
-        for (j=0; j<5; j++)
+        for (j=i+1;j<9;j++)
         {
-            printf("Enter Mark %d of student %d : ", j+1, i+1);
-            scanf("%d",&marks[i][j]);
+            if (array[i]>array[j])
+            {
+                temp=array[i];
+                array[i]=array[j];
+                array[j]=temp;
+            }
         }
     }
-
-    // calculating total marks of each student by reading values from the array and storing in a variable called "sum"
-    for (i=0; i<6; i++)
+    // Displaying the array in ascending order
+    printf("The array in ascending order is\n");
+    for (i=0; i<9; i++)
     {
-        for (j=0; j<5; j++)
-        {
-            sum += marks[i][j];
-        }
-        printf("Student %d had a  total score of %d.\n", i+1, sum);
-        // reset the variable after each iteration of outer loop so that we can use it for the next student
-        sum=0;
+        printf("%d, ", array[i]);
     }
-
+    // Sorting the array descending
+    for (i=0; i<9; i++)
+    {
+        for (j=i+1;j<9;j++)
+        {
+            if (array[i]<array[j])
+            {
+                temp=array[i];
+                array[i]=array[j];
+                array[j]=temp;
+            }
+        }
+    }
+    // Displaying the array in descending order
+    printf("The array in ascending order is\n");
+    for (i=0; i<9; i++)
+    {
+        printf("%d, ", array[i]);
+    }
 }
 ```
 
-### 3. /* Write a program to store marks of 6 students with 5 subjects each and calculate
-### 1. The average marks of class per subject
-### 2. Overall average marks of class
-### 2. Student with Highest marks
-### */
+### 3. // Write a program to input marks of 50 students using an array and display the average marks of the class.
 ```c
 
 #include <stdio.h>
+
 int main()
 {
-    int marks[6][5], i, j, a, b, highest=0, topper=0;
-    float total, sum;
-
-    // storing values into the array using a for loop
-    for (i=0; i<6; i++)
+    float sum=0, average=0;
+    int students[50], i, j;
+    for (i = 0; i < 50; i++)
     {
-        for (j=0; j<5; j++)
-        {
-            printf("Enter Mark of student %d in subject %d : ", i+1, j+1);
-            scanf("%d",&marks[i][j]);
-        }
+        printf("Input marks of student %d: ", i+1);
+        scanf("%d", &students[i]);
     }
-
-    // finding average per subject and class
-    
-    for (i=0; i<5; i++)
+    for (i = 0; i < 50; i++)
     {
-        for (j=0; j<6; j++)
-        {
-            total+=marks[j][i];
-            sum+=marks[j][i];
-        }
-        printf("Average marks of subject %d is %f\n", a+1, (total/6));
-        total=0;
+        sum += students[i];
     }
-    printf("Total average marks of class is %f\n", (sum/6));
-    sum=0;
-
-    // student with highest marks 
-
-    for (i=0; i<6; i++)
-    {
-        for (j=0; j<5; j++)
-        {
-            sum+=marks[i][j];
-        }
-        if (sum> highest)
-            topper=i;
-            highest=sum;
-            sum=0;
-    }
-    printf("Student with highest marks is student %d with %d marks\n", topper+1, highest);
+    printf("Average marks of class is %f\n", sum/50);
 }
+```
 
+### 4. // Write a program to search for a number entered by the user in a given array and display the array in ascending order
+```c
+
+#include <stdio.h>
+
+int main()
+{
+    int array[]={3,4,43,23,32,33,21,39,98};
+    int i,j,n,flag=0, temp;
+    printf("Enter the number to be searched: ");
+    scanf("%d", &n);
+    for (i=0; i<9; i++)
+    {
+        if (n==array[i])
+        {
+            printf("%d found array at index %d\n", n,i);
+            flag=1;
+        }
+    }
+    if(flag==0)
+    {
+        printf("%d not found in array!\n",n);
+    }
+    // Sorting the array
+    for (i=0; i<9; i++)
+    {
+        for (j=i+1;j<9;j++)
+        {
+            if (array[i]>array[j])
+            {
+                temp=array[i];
+                array[i]=array[j];
+                array[j]=temp;
+            }
+        }
+    }
+    // Displaying the array in ascending order
+    printf("The array in ascending order is\n");
+    for (i=0; i<9; i++)
+    {
+        printf("%d, ", array[i]);
+    }
+}
 
 ```
 
