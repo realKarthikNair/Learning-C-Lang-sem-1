@@ -12,7 +12,7 @@ int main()
     {
         if (n==array[i])
         {
-            printf("%d found array at index %d\n", n,i);
+            printf("%d found in array at index %d\n", n,i);
             flag=1;
         }
     }
