@@ -20,7 +20,6 @@ int main()
 {
     int i=0, j=0, flag=1;
     char text[100];
-    char reverse[100];
     printf("Enter string: ");
     fgets(text, 100, stdin);
     int len=strlen(text);
@@ -41,5 +40,6 @@ int main()
         printf("Text is not palindrome\n");
     }
 }
+
 ```
 
