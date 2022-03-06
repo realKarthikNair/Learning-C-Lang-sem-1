@@ -9,7 +9,7 @@
 void discard_remainder_of_line( void )
 {
     int c;
-    
+    // discarding the leftovers of a scanf 
     do
     {
         c = getchar();
@@ -38,14 +38,14 @@ int main()
       scanf("%ld", &(list[i].id));
       discard_remainder_of_line();
       printf("Enter name of employee %d : ", i+1);
-      fgets(list[i].name, 30, stdin);
+      fgets(list[i].name, sizeof(list[i].name), stdin);
       printf("Enter age of employee %d : ", i+1);
       scanf("%d", &(list[i].age));
       discard_remainder_of_line();
       printf("Enter address of employee %d : ", i+1);
-      fgets(list[i].address, 100, stdin);
+      fgets(list[i].address, sizeof(list[i].address), stdin);
       printf("Enter dept of employee %d : ", i+1);
-      fgets(list[i].dept, 30, stdin);
+      fgets(list[i].dept, sizeof(list[i].dept), stdin);
       printf("Enter salary of employee %d : ", i+1);
       scanf("%ld", &list[i].salary);
       discard_remainder_of_line();
