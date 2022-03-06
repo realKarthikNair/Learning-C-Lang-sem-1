@@ -1,9 +1,21 @@
-### 1. /*WAP to create a structure of employee with id, name, dept and age.
-### Also implement a linear search and display details of user with id as the search parameter
-### */
+### 1. /*Write a program to create a structure for employees containing the following data members:
+### Employee ID, Employee Name, Age, Address, Department and Salary. 
+### Input data for 10 employees and display the details of the employee from the employee ID given by the user.*/
 ```c
 
 #include <stdio.h>
+#include <string.h>
+
+void discard_remainder_of_line( void )
+{
+    int c;
+    
+    do
+    {
+        c = getchar();
+
+    } while ( c != EOF && c != '\n' );
+}
 
 int main()
 {
@@ -11,56 +23,60 @@ int main()
    typedef struct employee
    {
       long int id;
-      char name[10];
+      char name[30];
+      int age;
+      char address[100];
       char dept[30];
-      int age ;
+      long int salary;
    }emp;
-   
+
    emp list[5];
-   
-   for (i = 0; i<5;i++)
+
+   for (i = 0; i<10;i++)
    {
       printf("Enter id of employee %d : ", i+1);
       scanf("%ld", &(list[i].id));
+      discard_remainder_of_line();
       printf("Enter name of employee %d : ", i+1);
-      scanf("%s",list[i].name);
-      printf("Enter dept of employee %d : ", i+1);
-      scanf("%s", list[i].dept);
+      fgets(list[i].name, 30, stdin);
       printf("Enter age of employee %d : ", i+1);
       scanf("%d", &(list[i].age));
+      discard_remainder_of_line();
+      printf("Enter address of employee %d : ", i+1);
+      fgets(list[i].address, 100, stdin);
+      printf("Enter dept of employee %d : ", i+1);
+      fgets(list[i].dept, 30, stdin);
+      printf("Enter salary of employee %d : ", i+1);
+      scanf("%ld", &list[i].salary);
+      discard_remainder_of_line();
    }
-   // printf("Data Enterd is as follows:\n");
-   // for (int i = 0; i<5;i++)
-   // {
-   //    printf("Id : %ld \n", list[i].id);
-   //    printf("Name : %s \n", list[i].name);
-   //    printf("Dept : %s \n", list[i].dept);
-   //    printf("Age : %d\n", list[i].age);
-   // }
 
    long int emp_id;
    int flag=0;
-   printf("Enter employee id to be searched: ");
+   printf("\nEnter employee id to be searched: ");
    scanf("%ld", &emp_id);
+   discard_remainder_of_line();
 
-   for (i=0; i<5; i++)
+   // Linear search
+   for (i=0; i<10; i++)
    {
       if (list[i].id==emp_id)
       {
-         printf("Employee found!!");
+         printf("\nEmployee found!!\n");
          flag=1;
          printf("Id : %ld \n", list[i].id);
          printf("Name : %s \n", list[i].name);
-         printf("Dept : %s \n", list[i].dept);
          printf("Age : %d\n", list[i].age);
+         printf("Address : %s \n", list[i].address);
+         printf("Dept : %s \n", list[i].dept);
+         printf("Salary : %ld \n", list[i].salary);
       }
    }
    if (flag==0)
    {
-      printf("Employee not found!!");
+      printf("\nEmployee not found!!");
    }
 }
-
 
 
 ```

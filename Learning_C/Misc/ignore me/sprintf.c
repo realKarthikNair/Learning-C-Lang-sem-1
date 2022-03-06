@@ -1,7 +1,3 @@
-/*Write a program to create a structure for employees containing the following data members:
-Employee ID, Employee Name, Age, Address, Department and Salary. 
-Input data for 10 employees and display the details of the employee from the employee ID given by the user.*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -31,8 +27,7 @@ int main()
 
    emp list[5];
 
-   for (i = 0; i<10;i++)
-   {
+   for (i = 0; i<1;i++)   {
       printf("Enter id of employee %d : ", i+1);
       scanf("%ld", &(list[i].id));
       discard_remainder_of_line();
@@ -49,31 +44,38 @@ int main()
       scanf("%ld", &list[i].salary);
       discard_remainder_of_line();
    }
+   
+   printf("%s\n", list[0].name);
+   printf("%d\n", list[0].age);
+   char length[100];
+   sprintf(length, "%d", list[0].age);
+   printf("length of age is %ld", strlen(length));
+   printf("length of name is %ld", strlen(list[0].name));
 
-   long int emp_id;
-   int flag=0;
-   printf("\nEnter employee id to be searched: ");
-   scanf("%ld", &emp_id);
-   discard_remainder_of_line();
+/*   long int emp_id;*/
+/*   int flag=0;*/
+/*   printf("Enter employee id to be searched: ");*/
+/*   scanf("%ld", &emp_id);*/
+/*   discard_remainder_of_line();*/
 
-   // Linear search
-   for (i=0; i<10; i++)
-   {
-      if (list[i].id==emp_id)
-      {
-         printf("\nEmployee found!!\n");
-         flag=1;
-         printf("Id : %ld \n", list[i].id);
-         printf("Name : %s \n", list[i].name);
-         printf("Age : %d\n", list[i].age);
-         printf("Address : %s \n", list[i].address);
-         printf("Dept : %s \n", list[i].dept);
-         printf("Salary : %ld \n", list[i].salary);
-      }
-   }
-   if (flag==0)
-   {
-      printf("\nEmployee not found!!");
-   }
+/*   // Linear search*/
+/*   for (i=0; i<2; i++)*/
+/*   {*/
+/*      if (list[i].id==emp_id)*/
+/*      {*/
+/*         printf("Employee found!!");*/
+/*         flag=1;*/
+/*         printf("Id : %ld \n", list[i].id);*/
+/*         printf("Name : %s \n", list[i].name);*/
+/*         printf("Age : %d\n", list[i].age);*/
+/*         printf("Address : %s \n", list[i].address);*/
+/*         printf("Dept : %s \n", list[i].dept);*/
+/*         printf("Salary : %ld \n", list[i].salary);*/
+/*      }*/
+/*   }*/
+/*   if (flag==0)*/
+/*   {*/
+/*      printf("Employee not found!!");*/
+/*   }*/
 }
 
