@@ -51,7 +51,6 @@ int main()
    }
 
    long int emp_id;
-   int flag=0;
    printf("\nEnter employee id to be searched: ");
    scanf("%ld", &emp_id);
    discard_remainder_of_line();
@@ -62,18 +61,15 @@ int main()
       if (list[i].id==emp_id)
       {
          printf("\nEmployee found!!\n");
-         flag=1;
          printf("Id : %ld \n", list[i].id);
          printf("Name : %s \n", list[i].name);
          printf("Age : %d\n", list[i].age);
          printf("Address : %s \n", list[i].address);
          printf("Dept : %s \n", list[i].dept);
          printf("Salary : %ld \n", list[i].salary);
+         return 0;
       }
    }
-   if (flag==0)
-   {
-      printf("\nEmployee not found!!");
-   }
+   printf("\nEmployee not found!!");
 }
 
