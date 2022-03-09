@@ -9,6 +9,8 @@ int main()
 {
     // Input 20 numbers from the user
 
+    char c[100];
+
     int numbers[20];
 
     for(int i=0; i<(sizeof(numbers)/sizeof(int)); i++)
@@ -24,6 +26,7 @@ int main()
 
     for (int i=0; i<(sizeof(numbers)/sizeof(int)); i++)
     {
+        printf("Number %d is %d ", i+1, numbers[i]);
         if ((numbers[i]%2)==0)
         {
             putw(numbers[i], even);
@@ -36,5 +39,16 @@ int main()
 
     fclose(odd);
     fclose(even);
+
+    FILE * oddnum = fopen("OddFile.txt", "r");
+
+    // FILE * even = fopen("EvenFile.txt", "r");
+
+    fread(c, 100, 20, even);
+
+    printf("%s", c);
+
+    fclose(oddnum);
+
 }
 
