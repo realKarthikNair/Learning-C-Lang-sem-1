@@ -1,17 +1,13 @@
 /* Write a program to create two files with names EvenFile and OddFile.
 Input 20 numbers from the user and save even numbers in EvenFile and odd numbers in OddFile.*/
 
-// CODE NEEDS SOME FIXING
-
 #include <stdio.h>
 
 int main() 
 {
     // Input 20 numbers from the user
 
-    char c[100];
-
-    int numbers[20];
+    int numbers[20], num, num1;
 
     for(int i=0; i<(sizeof(numbers)/sizeof(int)); i++)
     {
@@ -26,7 +22,6 @@ int main()
 
     for (int i=0; i<(sizeof(numbers)/sizeof(int)); i++)
     {
-        printf("Number %d is %d ", i+1, numbers[i]);
         if ((numbers[i]%2)==0)
         {
             putw(numbers[i], even);
@@ -37,18 +32,9 @@ int main()
         }
     }
 
+    printf("Numbers saved successfully\n");
+
     fclose(odd);
     fclose(even);
-
-    FILE * oddnum = fopen("OddFile.txt", "r");
-
-    // FILE * even = fopen("EvenFile.txt", "r");
-
-    fread(c, 100, 20, even);
-
-    printf("%s", c);
-
-    fclose(oddnum);
-
 }
 
