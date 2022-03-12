@@ -52,15 +52,16 @@ float percentage(float p, float n)
 
 int main()
 {
+    int operation, len;
+    float* nums, sum;
     while (1)
     {
-        int operation, len;
         printf("\nWhich operation do you want to carry out?\nEnter 1 for addition\n 2 for subtraction\n 3 for multiplication\n 4 for division\n 5 for average\n 6 for percentage \n7 to exit\nEnter here: ");
         scanf("%d", &operation);
         switch (operation)
         {
         case 1:
-            float* nums, sum;
+           
             printf("How many Numbers to add?\nEnter Here :");
             scanf("%d", &len);
             nums= calloc(len, sizeof(float));
@@ -76,6 +77,7 @@ int main()
             printf("sum is %f", sum);
             break;
         case 2:
+
             printf("How many Numbers to subtract?\nEnter Here :");
             scanf("%d", &len);
             nums= calloc(len, sizeof(float));
