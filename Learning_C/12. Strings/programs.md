@@ -43,3 +43,30 @@ int main()
 
 ```
 
+### 3. 3. gets and puts.c
+```c
+#include <string.h>
+
+int main ()  
+{  
+    char s[100];  
+    printf("Enter something: ");  
+    gets(s);
+    printf("You entered \""); 
+    puts(s); 
+    printf("\"");
+}  
+```
+
+### 4. 4. String_functions.c
+```c
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char string1[]="Hello world!";
+    printf("Length of string is %ld\n", strlen(string1));
+}
+```
+
