@@ -8,7 +8,10 @@
 int main()
 {
     int i, operation, len;
+    int div, divs;
+    int first;
     float sum, num, sub, prod, percent;
+    float n, p;
     while (1)
     {
         printf("\nWhich operation do you want to carry out?\nEnter 1 for addition\n 2 for subtraction\n 3 for multiplication\n 4 for division\n 5 for average\n 6 for percentage \n7 to exit\nEnter here: ");
@@ -30,7 +33,6 @@ int main()
         case 2:
             printf("How many Numbers to subtract?\nEnter Here :");
             scanf("%d", &len);
-            int first;
             printf("Enter number 1: ");
             scanf("%d", &first);
             sub=first;
@@ -55,7 +57,6 @@ int main()
             printf("Product is %f.", prod);
             break;
         case 4:
-            int div, divs;
             printf("Enter dividend: ");
             scanf("%d", &div);
             printf("Enter divisor: ");
@@ -74,8 +75,7 @@ int main()
             }
             printf("Average is %f", sum/len);
             break;
-        case 6:
-            float n, p; 
+        case 6: 
             printf("Enter number and what percentage of it is to be calculated.\n");
             printf("Enter number: ");
             scanf("%f", &n);
