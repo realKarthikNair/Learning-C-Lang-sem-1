@@ -221,10 +221,10 @@ int main()
 ### 
 ### int main()
 ### {
+###     int operation;
+###     int i, j, k, rows0, cols0, rows1, cols1, matrix0[10][10], matrix1[10][10], matrix2[10][10];
 ###     while(1==1)
 ###     {
-###         int operation;
-###         int i, j, k, rows0, cols0, rows1, cols1, matrix0[10][10], matrix1[10][10], matrix2[10][10];
 ###         printf("Choose which operation do you want to execute\n");
 ###         printf("Enter\n");
 ###         printf("1 for matrix Addition\n");
