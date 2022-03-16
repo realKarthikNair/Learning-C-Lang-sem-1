@@ -68,6 +68,7 @@ int main()
     while (1)
     {
         int operation, i, n;
+        int num, og_num;
         printf("Input which operation is to be performed\n");
         printf("1 to print armstrong numbers upto N\n");
         printf("2 to print prime numbers between 1 to N\n");
@@ -92,7 +93,6 @@ int main()
             }
             break;
         case 2:
-            int n;
             printf("Enter N: ");
             scanf("%d", &n);
             printf("Prime numbers between 1 and %d are: ", n);
@@ -105,7 +105,6 @@ int main()
             }
             break;
         case 3:
-            int num, og_num;
             printf("Enter a number: ");
             scanf("%d",&num);
             og_num=num;
