@@ -1,4 +1,5 @@
-// Write a program to convert a hexadecimal number into a binary number
+### 1. // Write a program to convert a hexadecimal number into a binary number
+```c
 
 #include <stdio.h>
 #include <string.h>
@@ -91,3 +92,5 @@ int main()
         printf("%s\n",num_in_binary);
     }
 }
+```
+
