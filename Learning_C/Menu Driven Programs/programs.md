@@ -160,10 +160,10 @@ int reverse(int number)
 
 int main()
 {
+    int operation, i, n;
+    int num, og_num;
     while (1)
     {
-        int operation, i, n;
-        int num, og_num;
         printf("Input which operation is to be performed\n");
         printf("1 to print armstrong numbers upto N\n");
         printf("2 to print prime numbers between 1 to N\n");
