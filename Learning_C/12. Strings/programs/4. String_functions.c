@@ -52,13 +52,17 @@ int main()
 
     // strcat(string1, string2)
 
-    // strcat concatenates two strings 
+    // strcat concatenates two strings. It basically appends the second string to the first string
 
     strcat(string1, string3);
     printf("string1 after concatenating string3 is '%s'\n\n", string1);
 
+    // strncat(string1, string2)
 
+    // strncat concatenates two strings, but a third argument denoting the number of chars of string2 to be appended in string1 is passed
 
+    strncat(string4, string1, 5);
+    printf("string4 after concatenating the first 5 chars of string1 is '%s'\n\n", string4);
     
 
 }
