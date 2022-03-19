@@ -36,7 +36,7 @@ int main()
 
     // strncmp(string1, string2, num_of_chars)
 
-    // strncmp compares two strings, but you need to pass a third argument telling the number of characters you want to compare
+    // strncmp compares two strings, but you need to pass a third argument denoting the number of characters you want to compare
     // returns 0 if they are equal
     // a negative value if first string is lesser than the second string
     // a positive value if first string is greater than the second string
@@ -50,7 +50,14 @@ int main()
     cmp = strncmp(string1, string4, 5);
     printf("Result after strncmp on string1 and string4 on first 5 chars is: %d\n\n", cmp);
 
-    printf("\n");
+    // strcat(string1, string2)
+
+    // strcat concatenates two strings 
+
+    strcat(string1, string3);
+    printf("string1 after concatenating string3 is '%s'\n\n", string1);
+
+
 
     
 
