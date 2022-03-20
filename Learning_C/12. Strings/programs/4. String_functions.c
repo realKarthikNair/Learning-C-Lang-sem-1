@@ -50,6 +50,7 @@ int main()
     cmp = strncmp(string1, string4, 5);
     printf("Result after strncmp on string1 and string4 on first 5 chars is: %d\n\n", cmp);
 
+
     // strcat(string1, string2)
 
     // strcat concatenates two strings. It basically appends the second string to the first string
@@ -57,12 +58,21 @@ int main()
     strcat(string1, string3);
     printf("string1 after concatenating string3 is '%s'\n\n", string1);
 
+
     // strncat(string1, string2)
 
     // strncat concatenates two strings, but a third argument denoting the number of chars of string2 to be appended in string1 is passed
 
     strncat(string4, string1, 5);
     printf("string4 after concatenating the first 5 chars of string1 is '%s'\n\n", string4);
+    
+
+    // strchr(string1, char)
+
+    // strchr searches for char in string1
+
+    char s = 'e';
+    printf("string 'from' the first occurence of '%c' is%s", s,  strchr(string4, s));
     
 
 }
