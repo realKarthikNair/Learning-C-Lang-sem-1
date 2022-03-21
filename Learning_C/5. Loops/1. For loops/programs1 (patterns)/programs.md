@@ -2,7 +2,7 @@
 ### 
 ### *
 ### **
-### ****/
+### *** */
 ```c
 
 #include <stdio.h>
@@ -21,6 +21,7 @@ int main()
         printf("\n");
     }
 }
+
 ```
 
 ### 2. Display the following pattern on screen: ( Up to n rows)
