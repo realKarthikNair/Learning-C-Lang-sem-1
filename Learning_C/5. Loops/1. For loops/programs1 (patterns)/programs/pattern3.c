@@ -20,6 +20,6 @@ int main()
             n++;
             // The n variable basically is never reset
         }
-        printf("\n\n");
+        printf("\n");
     }
 }
