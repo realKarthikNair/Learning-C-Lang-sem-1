@@ -1,4 +1,4 @@
-### 1. /*Display the following pattern on screen: (Up to n rows)
+### 1. Display the following pattern on screen: (Up to n rows)
 ### 
 ### *
 ### **
@@ -23,7 +23,7 @@ int main()
 }
 ```
 
-### 2. /*Display the following pattern on screen: ( Up to n rows)
+### 2. Display the following pattern on screen: ( Up to n rows)
 ### 
 ### 1
 ### 1 2
@@ -49,7 +49,7 @@ int main()
 }
 ```
 
-### 3. /*Display the following pattern (Floyd’s Triangle) on screen: ( Up to n rows)
+### 3. Display the following pattern (Floyd’s Triangle) on screen: ( Up to n rows)
 ### 1
 ### 2 3
 ### 4 5 6
@@ -70,13 +70,14 @@ int main()
         {
             printf("%d ", n);
             n++;
+            // The n variable basically is never reset
         }
         printf("\n");
     }
 }
 ```
 
-### 4. /*Display the following pattern on screen: ( Up to n rows)
+### 4. Display the following pattern on screen: ( Up to n rows)
 ###  
 ### ***** 
 ### ****
@@ -105,7 +106,7 @@ int main()
 }
 ```
 
-### 5. /*48. Display the following pattern on screen: ( Up to n rows)
+### 5. 48. Display the following pattern on screen: ( Up to n rows)
 ###  
 ### 1 2 3 4 5
 ### 1 2 3 4 
@@ -134,7 +135,7 @@ int main()
 }
 ```
 
-### 6. /*Display the following pattern on screen: ( Up to n rows)
+### 6. Display the following pattern on screen: ( Up to n rows)
 ### 
 ### A
 ### B B
@@ -164,7 +165,7 @@ int main()
 
 ```
 
-### 7. /*50. Display the following pattern on screen( inverted full pyramid): ( Up to n)
+### 7. 50. Display the following pattern on screen( inverted full pyramid): ( Up to n)
 ### 
 ### * * * * * * * * *
 ###   * * * * * * *
@@ -203,7 +204,7 @@ int main()
 
 ```
 
-### 8. /*
+### 8. 
 ### 
 ### * 
 ### * * 
