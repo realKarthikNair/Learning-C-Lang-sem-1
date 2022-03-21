@@ -1,4 +1,4 @@
-### 1. Basic structure of a C program
+### 1.  Basic Structure of a C program
 ```c
 // This is a comment
 
@@ -26,19 +26,20 @@ int main()
 
 ```
 
-### 2. // Hello World program
+### 2.  Hello World program
 ```c
 
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     printf("Hello, World!\n");
     return 0;
 }   
+
 ```
 
-### 3. // Add two numbers 'a' and 'b'. Numbers should be user inputs
+### 3.  Add two numbers 'a' and 'b'. Numbers should be user inputs
 ```c
 
 #include <stdio.h>
@@ -54,7 +55,7 @@ int main()
 }
 ```
 
-### 4. // Convert celsius to fahrenheit by taking input from the user
+### 4.  Convert celsius to fahrenheit by taking input from the user
 ```c
 
 #include <stdio.h>
@@ -69,5 +70,4 @@ int main()
 
 
 ```
-
 
