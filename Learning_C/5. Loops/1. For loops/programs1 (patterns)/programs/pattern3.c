@@ -18,7 +18,8 @@ int main()
         {
             printf("%d ", n);
             n++;
+            // The n variable basically is never reset
         }
-        printf("\n");
+        printf("\n\n");
     }
 }
