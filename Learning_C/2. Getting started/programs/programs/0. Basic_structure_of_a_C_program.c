@@ -17,6 +17,9 @@ int main()
 {
   // printf, part of the standard input output library, prints its parameters on the screen. 
   printf("This line would be printed on screen upon executing! ");
+  // 'return' returns some data upon exiting the function. Here the main() function returns the integer 0
+  // We will get more into functions in a later stage. 
+  return 0;
 }
 
 // Curly braces are used to denote constructs such as blocks of code

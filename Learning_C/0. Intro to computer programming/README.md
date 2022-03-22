@@ -32,5 +32,5 @@ flowchart courtesy: [Prakash Pawar](https://dev.to/thevenicelive/how-programming
 - These languages expand the boundaries of 'what is possible with your computer' by adding more features and ease in syntax 
 - They are slower than low-level and middle-level languages since they require Language processors to translate programs into machine code that consume resources
 - C++, Python, Kotlin are good examples of high level languages
-- **Though use-cases of high level languages are highly dependant on the particular language, they're mainly used in Application Development, Web development, cybersecurity, R&D, etc where 'getting the word done faster' has a relatively higher priority than speed and resource efficiency.**
+- **Though use-cases of high level languages are highly dependant on the particular language, they're mainly used in Application Development, Web development, cybersecurity, R&D, etc where 'getting the work done faster' has a relatively higher priority than speed and resource efficiency.**
 
