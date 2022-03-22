@@ -8,7 +8,7 @@
 
 # How does a modern programming language work?
 
-Code => Language Processors => Binary (Machine language)
+Code => Language Processors(translators) => Binary (Machine language)
 
 <img src="https://user-images.githubusercontent.com/78267371/159483809-24012da7-a139-43ac-ae0c-f2a8127bd4cc.png" height=500px>
 
