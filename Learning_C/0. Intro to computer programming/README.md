@@ -4,12 +4,13 @@
 - The word "Hello" would be "01001000 01100101 01101100 01101100 01101111" in binary, so giving a computer instructions in binary was never a feasible way
 - To solve this, humans invented programming languages. Programming languages look more natural and readable to humans. 
 - **Programming languages act as a communication medium between computers and programmers. The application programs made as the end-result using a programming language is inturn used by normal humans to get things done by computers. Yep, programmers aren't normal humans, we're basically sorcerers :-p**.
+- Each programming language comes with a syntax, which is a set of rules that is used to write code in that particular language.
 
-# How does a modern programming language work
+# How does a modern programming language work?
 
 Code => Language Processors => Binary (Machine language)
 
-![image](https://user-images.githubusercontent.com/78267371/159483809-24012da7-a139-43ac-ae0c-f2a8127bd4cc.png|width=500px|)
+<img src="https://user-images.githubusercontent.com/78267371/159483809-24012da7-a139-43ac-ae0c-f2a8127bd4cc.png" height=500px>
 
 flowchart courtesy: [Prakash Pawar](https://dev.to/thevenicelive/how-programming-language-works-in-less-than-2mins-2j5l)
 
@@ -26,5 +27,7 @@ flowchart courtesy: [Prakash Pawar](https://dev.to/thevenicelive/how-programming
 - C Language is a good example of a middle level language. 
 
 ### 3. High-level programming languages
-- These languages expand the boundaries of 'what is possible with your computer' by adding more features and maintaining simplicity and readability
-- They are slower than low-level and middle-level languages since they require Language processors to translate programs into machine code
+- These languages expand the boundaries of 'what is possible with your computer' by adding more features and ease in syntax 
+- They are slower than low-level and middle-level languages since they require Language processors to translate programs into machine code that consume resources
+
+
