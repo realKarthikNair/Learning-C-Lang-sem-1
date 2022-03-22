@@ -8,7 +8,7 @@ e.g., `#include`, `#define`, `#ifdef`, etc
 
 ### Categories of Preprocessor Directives
 
-**1. File inclusion**
+### **1. File inclusion**
 
 - includes header files or other C files into the main program file
 
@@ -20,7 +20,7 @@ Syntax
 
 Header files are written in angular brackets to tell the preprocessor to search for them directly in the standard library.
 
-**2. Macros**
+### **2. Macros**
 
 - Basically used to define constant values, function-like definitions in special cases
 - Biggest advantage: Macros don't allocate memory 
