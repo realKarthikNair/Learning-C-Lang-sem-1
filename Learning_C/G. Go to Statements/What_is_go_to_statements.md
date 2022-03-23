@@ -11,7 +11,7 @@ The goto statement allow us to unconditionally jump to a predefined label within
 Here, the label is the position where the control is to be transferred.
 
 However, using goto is avoided since it makes the program less readable and complicated.
-That being said, goto can be useful sometimes. For example: to break from nested loops.
+That being said, goto can be useful sometimes. For example: to break from nested loops. 
 
 ### Example
 ```c
@@ -28,4 +28,4 @@ That being said, goto can be useful sometimes. For example: to break from nested
 
 ## Should you use goto?
 
-The main reason to avoid goto is that it leads unstructured and difficult-to-maintain code and very hard to follow. It is preferred if you want to jump out from nested loops.
+The main reason to avoid goto is that it leads unstructured and difficult-to-maintain code and very hard to follow. It is preferred if you want to jump out from nested loops. Using goto can lead to endless loops if not used carefully.
