@@ -1,9 +1,6 @@
-### 1.  GO TO STATEMENT
-```c
+### 1.  Program to print numbers from 1 to 10 using go to statement.
 
-/* Program to print numbers from 1 to 10
-   using go to statement 
-*/
+```c
 
 #include <stdio.h>
 
