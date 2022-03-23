@@ -11,7 +11,7 @@ int main(){
     int number=1;
 
     printnumber:
-    printf("%d", number);
+    printf("%d ", number);
 
     number++;
     if (number<=10){
