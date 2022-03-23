@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 int main(){
-    int number;
+    int number=1;
 
     printnumber:
     printf("%d", number);
