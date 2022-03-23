@@ -8,14 +8,15 @@
 #include <stdio.h>
 
 int main(){
-    int number;
+    int number, i=0;
 
-    for (int i=0; i<=10; i++){
-        goto number;
-    }
-
-    number:
+    printnumber:
     printf("%d", number);
+
+    number++;
+    if (number<=10){
+    goto printnumber;
+    }
 }
 
 ```
