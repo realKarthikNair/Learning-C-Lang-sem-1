@@ -10,7 +10,7 @@ The goto statement allow us to unconditionally jump to a predefined label within
 ```
 Here, the label is the position where the control is to be transferred.
 
-However, using goto is avoided these days since it makes the program less readable and complicated.
+However, using goto is avoided since it makes the program less readable and complicated.
 That being said, goto can be useful sometimes. For example: to break from nested loops.
 
 ### Example
