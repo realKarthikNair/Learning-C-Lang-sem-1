@@ -1,4 +1,5 @@
-/*Write a program to perform (i)matrix addition, (ii)matrix multiplication and (iii) matrix transporse on 2D arrays*/
+/*Write a program to perform (i)matrix addition, (ii)matrix multiplication and (iii) matrix transporse on 2D arrays
+*/
 
 #include <stdio.h>
 
