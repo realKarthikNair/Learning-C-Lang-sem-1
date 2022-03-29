@@ -26,7 +26,6 @@ int main(){
 	fclose(odd);
 }
 
-
 // #include <stdio.h>
 
 // int main() 
