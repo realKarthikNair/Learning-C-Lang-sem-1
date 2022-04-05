@@ -1,4 +1,4 @@
-### 1. // find if input is an armstrong number
+### 1.  find if input is an armstrong number
 ```c
 
 #include <stdio.h>
@@ -56,7 +56,7 @@ int main()
 
 ```
 
-### 2. // find the factorial of a number
+### 2.  find the factorial of a number
 ```c
 
 #include <stdio.h>
@@ -88,7 +88,7 @@ int main()
 
 ```
 
-### 3. // Write a C program to check whether a year is leap year or not
+### 3.  Write a C program to check whether a year is leap year or not
 ```c
 
 #include <stdio.h>
@@ -114,7 +114,38 @@ int main()
 
 ```
 
-### 4. // Find if input is a palindrome number
+### 4.  Demonstrating Linear search
+```c
+
+#include <stdio.h>
+
+// Arr is the array of numbers, n is the number of elements in the array, e is the element to be searched
+
+int linear_search(int arr[], int e, int n)
+{
+    int i;
+    for (i = 0; i < n; i++)
+    {
+        if (arr[i] == e)
+        return i;
+    }
+    return 0;
+}
+
+
+int main()
+{
+    int arr[] = {22, 23, 34, 65, 42, 34};
+    int e = 34;
+    int n = sizeof(arr)/sizeof(arr[0]);
+   
+    // Function call
+    int result = linear_search(arr, e, n);
+    (result == 0)? (printf("Element is not present in array")): (printf("Element is present at index %d", result));
+}
+```
+
+### 5.  Find if input is a palindrome number
 ```c
 
 #include <stdio.h>
@@ -150,7 +181,7 @@ void main()
 }
 ```
 
-### 5. // Find if entered number is a prime number
+### 6.  Find if entered number is a prime number
 ```c
 
 #include <stdio.h>
@@ -199,7 +230,7 @@ int main()
 
 ```
 
-### 6. // Print prime numbers between range input by user
+### 7.  Print prime numbers between range input by user
 ```c
 
 #include <stdio.h>
@@ -241,7 +272,7 @@ int main()
 
 ```
 
-### 7. // Write a C program to find the types roots of a quadratic equation
+### 8.  Write a C program to find the types roots of a quadratic equation
 ```c
 
 #include <stdio.h>
