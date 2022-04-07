@@ -12,23 +12,23 @@ int count_digits(int number)
 
 {
 
-if (number>0)
+    if (number>0)
 
-{
+    {
 
-number=number/10;
+        number=number/10;
 
-return 1 + count_digits(number);
+        return 1 + count_digits(number);
 
-}
+    }
 
-else
+    else
 
-{
+    {
 
-return 0;
+        return 0;
 
-}
+    }
 
 }
 
@@ -36,29 +36,29 @@ int sum_pow(int number, int digits)
 
 {
 
-int i, j=digits, digit=1;
+    int i, j=digits, digit=1;
 
-if (number>0)
+    if (number>0)
 
-{
+        {
 
-for (i=1;1<=j;j--)
+            for (i=1;1<=j;j--)
 
-{
+            {
 
-digit=digit*(number%10);
+                digit=digit*(number%10);
 
-}
+            }
 
-return digit+ sum_pow((number/10), digits);
+            return digit+ sum_pow((number/10), digits);
 
-}
+        }
 
-else
+    else
 
-digit-=1;
+        digit-=1;
 
-return digit;
+    return digit;
 
 }
 
@@ -66,23 +66,23 @@ int prime_num(int number)
 
 {
 
-int i, j=(number/2);
+    int i, j=(number/2);
 
-for (i=2;i<=j;i++)
+    for (i=2;i<=j;i++)
 
-{
+    {
 
-if (number%i==0)
+        if (number%i==0)
 
-{
+        {
 
-return 0;
+            return 0;
 
-}
+        }
 
-}
+    }
 
-return 1;
+    return 1;
 
 }
 
@@ -90,19 +90,19 @@ int reverse(int number)
 
 {
 
-int num1=0;
+    int num1=0;
 
-while (number>0)
+    while (number>0)
 
-{
+    {
 
-num1=(num1*10)+(number%10);
+        num1=(num1*10)+(number%10);
 
-number/=10;
+        number/=10;
 
-}
+    }
 
-return num1;
+    return num1;
 
 }
 
@@ -110,110 +110,110 @@ int main()
 
 {
 
-while (1)
+    while (1)
 
-{
+    {
 
-int operation, i, n;
+        int operation, i, n;
 
-printf("Input which operation is to be performed\n");
+        printf("Input which operation is to be performed\n");
 
-printf("1 to print armstrong numbers upto N\n");
+        printf("1 to print armstrong numbers upto N\n");
 
-printf("2 to print prime numbers between 1 to N\n");
+        printf("2 to print prime numbers between 1 to N\n");
 
-printf("3 to reverse an integer\n");
+        printf("3 to reverse an integer\n");
 
-printf("4 to quit the program\n");
+        printf("4 to quit the program\n");
 
-printf("Enter here: ");
+        printf("Enter here: ");
 
-scanf("%d", &operation);
+        scanf("%d", &operation);
 
-switch (operation)
+        switch (operation)
 
-{
+        {
 
-case 1:
+            case 1:
 
-printf("Enter value of n: ");
+                printf("Enter value of n: ");
 
-scanf("%d", &n);
+                scanf("%d", &n);
 
-for (i=0; i<n; i++)
+                for (i=0; i<n; i++)
 
-{
+                {
 
-int digits, sum;
+                    int digits, sum;
 
-digits=count_digits(i);
+                    digits=count_digits(i);
 
-sum=sum_pow(i, digits);
+                    sum=sum_pow(i, digits);
 
-if (sum==i)
+                    if (sum==i)
 
-{
+                    {
 
-printf("%d, ", i);
+                        printf("%d, ", i);
 
-}
+                    }
 
-}
+                }
 
-break;
+                break;
 
-case 2:
+            case 2:
 
-int n;
+                int n;
 
-printf("Enter N: ");
+                printf("Enter N: ");
 
-scanf("%d", &n);
+                scanf("%d", &n);
 
-printf("Prime numbers between 1 and %d are: ", n);
+                printf("Prime numbers between 1 and %d are: ", n);
 
-for (i=1; i<=n; i++)
+                for (i=1; i<=n; i++)
 
-{
+                {
 
-if(prime_num(i)==1)
+                    if(prime_num(i)==1)
 
-{
+                    {
 
-printf("%d, ", i);
+                        printf("%d, ", i);
 
-}
+                    }
 
-}
+                }
 
-break;
+                break;
 
-case 3:
+            case 3:
 
-int num, og_num;
+                int num, og_num;
 
-printf("Enter a number: ");
+                printf("Enter a number: ");
 
-scanf("%d",&num);
+                scanf("%d",&num);
 
-og_num=num;
+                og_num=num;
 
-num=reverse(num);
+                num=reverse(num);
 
-printf("Reverse of %d is %d\n", og_num, num);
+                printf("Reverse of %d is %d\n", og_num, num);
 
-break;
+                break;
 
-case 4:
+            case 4:
 
-printf("Abort!\n");
+                printf("Abort!\n");
 
-return 0;
+                return 0;
 
-}
+        }
 
-printf("\n");
+        printf("\n");
 
-}
+    }
 
 }
