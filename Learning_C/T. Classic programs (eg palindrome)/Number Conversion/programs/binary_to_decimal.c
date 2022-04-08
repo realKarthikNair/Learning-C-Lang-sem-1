@@ -1,21 +1,25 @@
-// #include <stdio.h>
-// int main()  
-// {  
-//     int num, num_in_binary, num_in_decimal = 0, base = 1, rem;  
-//     printf ("Enter a binary number with the combination of 0s and 1s \n");  
-//     scanf ("%d", &num);
+#include <stdio.h>
+
+int main()  
+{  
+    int num_in_binary, num_in_binary_backup, remainder;  
+    int num_in_decimal = 0, base = 1;
+    printf ("Enter a binary number \n");  
+    scanf ("%d", &num_in_binary);
   
-//     num_in_binary = num;
+    // code to check input is really a binary number or not can also be added, but i am not making it complicated for now
+
+    num_in_binary_backup = num_in_binary;
       
       
-//     while ( num > 0)  
-//     {  
-//         rem = num % 10; /* divide the binary number by 10 and store the remainder in rem variable. */  
-//         num_in_decimal = num_in_decimal + rem * base;  
-//         num = num / 10; // divide the number with quotient  
-//         base = base * 2;  
-//     }  
+    while ( num_in_binary > 0)  
+    {  
+        remainder = num_in_binary % 10;
+        num_in_decimal = num_in_decimal + remainder * base;  
+        base = base * 2;  
+        num_in_binary = num_in_binary / 10;
+    }  
   
-//     printf ( " The binary number is %d \t", num_in_binary); // print the binary number  
-//     printf (" \n The decimal number is %d \t", num_in_decimal); // print the decimal
-// }  
+    printf ( " Input binary '%d' ", num_in_binary_backup);
+    printf ("in decimal number is '%d' \n", num_in_decimal);
+}
