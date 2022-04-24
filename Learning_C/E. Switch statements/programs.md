@@ -1,4 +1,4 @@
-### 1. // Write a C program to input week day number and print week day name
+### 1.  Write a C program to input week day number and print week day name
 ```c
 
 #include <stdio.h>
