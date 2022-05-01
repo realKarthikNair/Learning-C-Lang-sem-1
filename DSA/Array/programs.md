@@ -1,4 +1,4 @@
-### 1. reverse_an_array.c
+### 1. 5. reverse_an_array.c
 ```c
 
 int main()
