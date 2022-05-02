@@ -3,28 +3,11 @@
 
 #include <stdio.h>
 
-void traverse(int n, int arr[])
-{
-    for (int i=0; i<n; i++)
-    {
-        printf("%d, ", arr[i]);
-    }
-    printf("\n");
-}
-
 int main()
 {
-    int i, array[10], item_to_search, n=5;
+    int i, item_to_search, n=8;
 
-    for (i=0; i<n; i++)
-    {
-        printf("\nInput element %d: ", i+1);
-        scanf("%d", &array[i]);
-    }
-
-    printf("\nInput array is \n");
-
-    traverse(n, array);
+    int array[10]={22,32,21,33,42,11,22,45};
 
     // Linear search
 
@@ -41,7 +24,8 @@ int main()
 
     if (i==n)
     {
-        printf("\nElement not found!\n");
+        printf("\nElement %d not found!\n", item_to_search);
     }
 
 }
+
