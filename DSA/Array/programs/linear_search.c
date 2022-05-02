@@ -26,6 +26,5 @@ int main()
     {
         printf("\nElement %d not found!\n", item_to_search);
     }
-
 }
 
