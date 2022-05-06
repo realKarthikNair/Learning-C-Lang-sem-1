@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-void traverse(int n, int arr[])
+void print_array(int n, int arr[])
 {
     for (int i=0; i<n; i++)
     {
@@ -31,7 +31,7 @@ int main()
 
     printf("\nInput array is \n");
 
-    traverse(n, array);
+    print_array(n, array);
 
     // insert element at k
 
@@ -45,7 +45,7 @@ int main()
 
     printf("\nArray after inserting an element is \n");
 
-    traverse(n, array);
+    print_array(n, array);
 
     // Delete element at k
 
@@ -57,7 +57,7 @@ int main()
     n-=1;
 
     printf("\nArray after deletion of an element is \n");
-    traverse(n, array);
+    print_array(n, array);
 
 
     // reverse the array 
@@ -70,7 +70,7 @@ int main()
     }
 
     printf("\nArray after reversing is \n");
-    traverse(n, array);
+    print_array(n, array);
 
 }
 
