@@ -1,4 +1,4 @@
-### 1. D.bubble_sort.c
+### 1. A.bubble_sort.c
 ```c
 
 void print_array(int n, int arr[])
