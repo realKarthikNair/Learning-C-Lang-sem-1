@@ -69,5 +69,4 @@ int main()
 	{
 		printf("\nThis matrix is not sparse matrix.");
 	}
-	
 }
