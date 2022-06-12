@@ -5,7 +5,7 @@
 
 int main()
 {
-    static int n = 9, stack[10];
+    static int n = 10, stack[10];
     int choice = 0, top = -1, item;
     printf("\nA stack of size 10 has been declared\n");
     do
