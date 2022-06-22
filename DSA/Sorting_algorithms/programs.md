@@ -1,5 +1,10 @@
-### 1. A.bubble_sort.c
+### 1.  Bubble Sort
+### # Time complexity: O(n^2)
+### # Space complexity: O(1)
+### */
 ```c
+
+#include <stdio.h>
 
 void print_array(int n, int arr[])
 {
@@ -49,8 +54,8 @@ void print_array(int n, int arr[])
 int main()
 {
     int i, j, n, temp, min, pos;
-    int array0[10]={34,22,33,11,76,91,3,43};
-    n=8;
+    int array0[12]={34,22,33,11,76,91,3,43,1,44,0,41};
+    n=12;
     for (i=0; i<(n-1); i++)
     {
         min=array0[i];
@@ -107,8 +112,10 @@ int main()
 }
 ```
 
-### 4. D.merge_sort.c
+### 4.  Merge Sort
 ```c
+
+#include <stdio.h>
 
 void merge(int arr[], int p, int q, int r)
 {

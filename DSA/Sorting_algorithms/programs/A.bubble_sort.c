@@ -1,3 +1,8 @@
+/* Bubble Sort
+# Time complexity: O(n^2)
+# Space complexity: O(1)
+*/
+
 #include <stdio.h>
 
 void print_array(int n, int arr[])
