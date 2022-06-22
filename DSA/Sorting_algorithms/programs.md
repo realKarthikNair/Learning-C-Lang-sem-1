@@ -14,11 +14,11 @@ void print_array(int n, int arr[])
 int main()
 {
     int i, j, n, temp;
-    int array0[10]={34,22,33,11,76,91,3,43};
-    n=8;
-    for (i=0; i<n; i++)
+    int array0[10]={34,22,33,11,76,91,3,43,1};
+    n=9;
+    for (i=0; i<n-1; i++)
     {
-        for (j=0; j<(n-1); j++)
+        for (j=0; j<(n-i-1); j++)
         {
             if (array0[j]>array0[j+1])
             {
