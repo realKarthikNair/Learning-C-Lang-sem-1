@@ -14,8 +14,8 @@ void print_array(int n, int arr[])
 int main()
 {
     int i, j, n, temp;
-    int array0[10]={34,22,33,11,76,91,3,43};
-    n=8;
+    int array0[12]={34,22,33,11,76,91,3,43,2,30,1,33};
+    n=12;
 
     for (i=1; i<n; i++)
     {
@@ -29,5 +29,5 @@ int main()
         }
         array0[j+1]=temp;
     }
-    print_array(8, array0);
+    print_array(n, array0);
 }
