@@ -54,3 +54,6 @@ int main()
         printf("%d ,", arr[i]);
     }
 }
+
+
+/*random comment: teaching someone github*/
